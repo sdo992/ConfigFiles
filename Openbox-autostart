@@ -1,0 +1,8 @@
+xset -dpms &
+xset s off &
+picom -b &
+sleep 0.2; tint2 &
+sleep 0.2; volumeicon &
+sleep 0.2; nitrogen --restore &
+sleep 0.2; plank &
+devmon &
