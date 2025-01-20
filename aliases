@@ -1,0 +1,13 @@
+alias <city1>='curl wttr.in/<city1>?3ntaqr'
+alias <city2>='curl wttr.in/<city2>?2ntaqr'
+alias <city3>='curl wttr.in/<city3>?2ntaqr'
+alias <city4>='curl wttr.in/<city4>?2ntaqr'
+alias <city5>='curl wttr.in/<city5>?2ntaqr'
+alias paris='curl wttr.in/Paris?2ntaqr'
+alias moonbaby='curl wttr.in/Moon'
+alias fixme1='ls -v | cat -n | while read n f; do mv -n "$f" "$n.jpg"; done'
+alias fixme2='$HOME/.fixme2.sh'
+# What programs are listening on what ports
+alias showme2='sudo ss -a -t -p'
+alias backmeup='rsync -avp --no-links --delete --prune-empty-dirs /home/$(USER)/ --exclude-from=".rsyncExclude.txt" /run/media/$(USER)/<backup_drive>/$(HOSTNAME) | grep -v "skipping non-regular file"'
+alias ls='ls --color -h --group-directories-first #Display directories first and use color if 
