@@ -19,4 +19,4 @@ alias showme2='sudo ss -a -t -p'
 alias backmeup='rsync -avp --no-links --delete --prune-empty-dirs /home/$(USER)/ --exclude-from=".rsyncExclude.txt" /run/media/$(USER)/<backup_drive>/$(HOSTNAME) | grep -v "skipping non-regular file"'
 
 #Display directories first and use color if available
-alias ls='ls --color -h --group-directories-first
+alias ls='ls --color -h --group-directories-first'
